@@ -1,5 +1,5 @@
 def primePalin(n,num=1):
-    primes = [2,3]
+    primes = []
     counter = 0
     while True:
         flag = 0
@@ -25,4 +25,4 @@ def primePalin(n,num=1):
 
 count = int(input("Enter the Nth Term: "))
 
-print(primePalin(count))
+print(f"The {count}th Prime Palindrome Number is: {primePalin(count)}")
